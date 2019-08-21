@@ -1,0 +1,62 @@
+.navegador{
+    display: inline;
+    position: static;
+    text-align: right;
+    padding: 10px;
+    font-family: Nueva;
+}
+
+@font-face{
+    font-family: Nueva;
+    src: url(fuente.otf);
+}
+
+@font-face{
+    font-family: Nueva2;
+    src: url(fuente2.otf);
+}
+
+header{
+    background-color: khaki;
+    width: 100%;
+    padding: 20px;
+}
+
+body{
+  background-color: gray;  
+}
+
+body div section {
+    font-family: Nueva2;
+    border: 15px;
+    background-color:rgb(127, 233, 127);
+    width: 75%;
+    float: left;
+}
+
+body div aside{
+    font-family: Nueva2;
+    background-color: aqua;
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+body div section article img {
+    border-image: 15px;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    font-family: Nueva;
+}
+
+footer{
+    font-family: Nueva;
+    float: left;
+    background-color: aquamarine;
+    width: 100%;
+}
